@@ -73,23 +73,81 @@ button {
     background-color: #F8F8F8;
     border: 1px solid #00C9FF;
     border-radius: 24px;
+    padding: 32px 32px;
+}
+.place {
+    margin-bottom: 16px;
+}
+.proper {
+    margin-bottom: 13px;
+}
+select {
+    max-width: 331px;
+    height: 48px;
+    border: 1px solid #00C9FF;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    padding-left: 18px;
+}
+.form-row, .radio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.prrange {
+    margin-top: 39px;
+    margin-bottom: 13px;
 }
 .eastern {
     max-width: 1227px;
     width: 100%;
     margin: auto;
+    position: relative;
 }
-
+.eastern h1 {
+    position: absolute;
+    top: 60px;
+    left: 260px;
+    font-size: 48px;
+    letter-spacing: 0px;
+    line-height: 72px;
+}
+.eastern h4 {
+    position: absolute;
+    top: 142px;
+    left: 445px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+.searcher {
+    position: absolute;
+    top: 206px;
+    left: 450px;
+    width: 285px;
+}
+.form-search input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #00C9FF;
+    border-radius: 10px;
+    padding-left: 24px;
+}
 
 .sectorium {
     max-width: 1642px;
     width: 100%;
     margin: auto;
 }
+.trendiol {
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
 .stend {
     border: 1px solid #00C9FF ;
     background-color: #F8F8F8;
     border-radius: 24px;
+    position: relative;
 }
 .parent {
     display: grid;
@@ -127,6 +185,15 @@ button {
     font-size: 14px;
     letter-spacing: 0px;
     line-height: 21px;
+}
+.vip {
+    background-color: #29B24E;
+    border-radius: 15px;
+    position: absolute;
+    color: #FFFFFF;
+    padding: 6px 11px;
+    top: 34px;
+    left: 39px;
 }
 
 
@@ -172,6 +239,7 @@ button {
     align-items: center;
     max-width: 1642px;
     width: 100%;
+    color: #D0D0D0;
 }
 .foot-end {
     display: flex;
