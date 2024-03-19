@@ -22,11 +22,14 @@ img {
     max-width: 1920px;
     width: 100%;
     border: 1px solid #00C9FF ;
+    background-color: #C2C2C24D;
 }
 .north {
     max-width: 1642px;
     width: 100%;
     margin: auto;
+    margin-top: 54px;
+    margin-bottom: 55px;
 }
 .carlson {
     display: flex;
@@ -67,6 +70,9 @@ button {
     max-width: 395px;
     width: 100%;
     margin: auto;
+    background-color: #F8F8F8;
+    border: 1px solid #00C9FF;
+    border-radius: 24px;
 }
 .eastern {
     max-width: 1227px;
@@ -80,6 +86,11 @@ button {
     width: 100%;
     margin: auto;
 }
+.stend {
+    border: 1px solid #00C9FF ;
+    background-color: #F8F8F8;
+    border-radius: 24px;
+}
 .parent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -88,6 +99,34 @@ button {
 .tora {
     margin: auto;
     padding: 16px 16px;
+}
+.ctnamanga {
+    margin-left: 20px;
+}
+.ctKajiado {
+    margin-left: 20px;
+}
+.price {
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-left: 260px;    
+}
+.lacon {
+    max-width: 363px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.describe {
+    display: flex;
+    gap: 63px;
+    color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 21px;
 }
 
 
@@ -104,6 +143,7 @@ button {
     margin: auto;
     background-color: #29B24E;
     border-radius: 25px;
+    margin-top: 120px;
 }
 .foot-top {
     max-width: 1642px;
@@ -116,6 +156,8 @@ button {
     align-items: center;
     max-width: 1642px;
     width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .navbar-end {
     display: flex;
@@ -137,4 +179,9 @@ button {
     align-items: center;
     max-width: 1642px;
     width: 100%;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+.mail {
+    color: #FFFFFF;
 }
