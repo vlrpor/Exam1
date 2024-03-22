@@ -505,6 +505,122 @@ select {
     grid-template-rows: 424px;
     gap: 20px;
 }
+.about-tester {
+    padding-right: 13px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 13px;
+}
+
+.about-tora {
+    margin: auto;
+    padding: 16px 16px;
+}
+.about-ctnamanga {
+    margin-left: 20px;
+}
+.about-ctKajiado {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.about-price {
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-right: 10px;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #29B24E;
+
+}
+.about-lacon {
+    max-width: 375px;
+    padding-left: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.about-runner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-top: -235px;
+}
+.about-iframe {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 11px 11px;
+}
+.about-describe {
+    display: flex;
+    gap: 63px;
+    color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 21px;
+}
+.about-vip {
+    background-color: #29B24E;
+    border-radius: 15px;
+    position: absolute;
+    color: #FFFFFF;
+    padding: 6px 11px;
+    top: 28px;
+    left: 28px;
+}
+
+.about-foot {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    background-color: #29B24E;
+    border-radius: 25px;
+    margin-top: 120px;
+}
+.about-foot-top {
+    max-width: 1642px;
+    width: 100%;
+    margin: auto;
+}
+.about-south {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1642px;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.about-navbar-end {
+    display: flex;
+    gap: 48px;
+    color: #FFFFFF;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 21px;
+}
+.about-line {
+    align-items: center;
+    max-width: 1642px;
+    width: 100%;
+    color: #D0D0D0;
+}
+.about-foot-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1642px;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+.about-mail {
+    color: #FFFFFF;
+}
 
 
 
